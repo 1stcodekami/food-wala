@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Food Delivery | FoodWala.com</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="image/logo.png" alt="FoodWala.com" width="70" />
+        </div>
+        <div class="add-box">
+            <i class="fa fa-map-marker your-address" id="add-address">
+                Your Address</i>
+        </div>
+        <div class="util">
+            <i class="fa fa-search"> Search</i>
+            <i class="fa fa-tags"> Offers</i>
+            <!-- <i class="fa fa-facebook-official"></i> -->
+
+            <i class="fa fa-cart-plus" id="cart-plus"> 0 Items</i>
+        </div>
+    </div>
+
+    <div id="menu">
+        <div class="menu-item">
+            <a href="#home">Home</a>
+            <a href="#services-container">Food Hunt</a>
+            <a href="#">Your Orders</a>
+            <a href="#">Wishlists</a>
+            <a href="#">Cart</a>
+            <a href="#contact">Contact</a>
+            <a href="#">Checkout</a>
+        </div>
+    </div>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to Food Wala</h1>
+        <p>
+            "Deliciousness delivered to your doorstep—explore, order, and savor
+            every bite with FoodWala!"
+        </p>
+        <p>
+            Discover mouthwatering dishes from top restaurants, all just a click
+            away!"
+        </p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <h1 class="h-primary center">Go For Hunt</h1>
+    <div id="services">
+        <div id="services1">
+            <div class="box">
+                <img src="image/pic_bir.jpg" alt="" />
+                <h2 class="h-secondary center">Biryani</h2>
+            </div>
+            <div class="box">
+                <img src="image/pic_br.jpg" alt="" width="180" />
+                <h2 class="h-secondary center">Burger</h2>
+            </div>
+            <div class="box">
+                <img src="image/pic_dr.jpg" alt="Drink" width="180" />
+                <h2 class="h-secondary center">Drinks</h2>
+            </div>
+
+            <div class="box">
+                <img src="image/pic_ch.jpg" alt="" width="190" />
+                <h2 class="h-secondary center">Chinese</h2>
+            </div>
+            <div class="box">
+                <img src="image/pic_pz.jpg" alt="" />
+                <h2 class="h-secondary center">Pizza</h2>
+            </div>
+        </div>
+        <div id="services2">
+            <div class="box">
+                <img src="image/pic_bbq.jpg" alt="" width="170" />
+                <h2 class="h-secondary center">BBQ</h2>
+            </div>
+            <div class="box">
+                <img src="image/pic_sd.jpg" alt="" width="190" />
+                <h2 class="h-secondary center">Salads</h2>
+            </div>
+            <div class="box">
+                <img src="image/pic_sa.jpg" alt="" width="170" />
+                <h2 class="h-secondary center">Sandwich</h2>
+            </div>
+            <div class="box">
+                <img src="image/pic_ba.jpg" alt="" width="190" />
+                <h2 class="h-secondary center">Bakery</h2>
+            </div>
+            <div class="box">
+                <img src="image/pic_ice.jpg" alt="" width="180" />
+                <h2 class="h-secondary center">Cream</h2>
+            </div>
+        </div>
+    </div>
+
+    <section id="client-section">
+        <div class="color-bar"></div>
+
+        <!-- <h1 class="h-primary center">Our Clients</h1> -->
+        <div id="clients">
+            <div class="client-item">
+                <img src="image/cashback.png" alt="Cash Back" />
+                <p>Upto 20% Cashback</p>
+            </div>
+            <div class="client-item">
+                <img src="image/share.png" alt="Share Others" />
+                <p>share & Review for instant cash</p>
+            </div>
+
+            <div class="client-item">
+                <img src="image/refer.png" alt="Refer to Friends" />
+                <p>Refer to other & Get Cashback</p>
+            </div>
+        </div>
+        <div class="color-bar" style="width: 60%"></div>
+    </section>
+
+    <h1 class="h-primary center">Top Restaurant</h1>
+    <section id="restaurant-section">
+        <div id="rest">
+            <img src="image/pic_re.png" alt="Restaurant" />
+        </div>
+
+        <div class="vl"></div>
+
+        <div id="rest_list">
+            <a href="">Golden Apple Bahadurabad</a>
+            <a href="">Red Apple PECHS</a>
+            <a href="">Red Apple DHA</a>
+            <a href="">Red Apple DHA</a>
+            <a href="">Student Biryani</a>
+            <a href="">United King</a>
+            <a href="">Pizza Max</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email" />
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.foodWala.com. All rights reserved.
+            <a href="#" style="color: white">terms & Conditions-Privacy Policy!</a>
+        </div>
+    </footer>
+</body>
+
+</html>
